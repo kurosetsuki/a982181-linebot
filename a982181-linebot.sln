@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a982181-linebot", "a982181-linebot\a982181-linebot.csproj", "{CBE80718-2FF3-46E4-92AF-761F7D7A810E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE80718-2FF3-46E4-92AF-761F7D7A810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE80718-2FF3-46E4-92AF-761F7D7A810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE80718-2FF3-46E4-92AF-761F7D7A810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE80718-2FF3-46E4-92AF-761F7D7A810E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
