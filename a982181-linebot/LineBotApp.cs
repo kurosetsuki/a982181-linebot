@@ -45,6 +45,10 @@ public class LineBotApp : WebhookApplication
                     {
                         //將資料寫入記憶體池
                         TeachDog(text);
+                        result = new List<ISendMessage>
+                        {
+                            new TextMessage("學廢ㄌ")
+                        };
                     }
                 }
  
@@ -92,7 +96,7 @@ public class LineBotApp : WebhookApplication
             //檢查
             if (subs.Length == 3)
             {
-                if (subs[0] == "嶺東猴子")
+                if (subs[0] == "小不點")
                 {
                     result = true;
                 }
@@ -114,7 +118,7 @@ public class LineBotApp : WebhookApplication
             //檢查
             if (subs.Length == 3)
             {
-                if (subs[0] == "說話")
+                if (subs[0] == "小不點")
                 {
                     _pool.Add(subs[1],subs[2]);
                 }
