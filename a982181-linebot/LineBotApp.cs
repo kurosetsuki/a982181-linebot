@@ -95,7 +95,7 @@ public class LineBotApp : WebhookApplication
             //檢查
             if (subs.Length == 3)
             {
-                if (subs[0] == "小不點")
+                if (subs[0] == "教你說話")
                 {
                     result = true;
                 }
@@ -117,7 +117,7 @@ public class LineBotApp : WebhookApplication
             //檢查
             if (subs.Length == 3)
             {
-                if (subs[0] == "小不點")
+                if (subs[0] == "教你說話")
                 {
                     _pool.Add(subs[1],subs[2]);
                 }
